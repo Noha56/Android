@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Setting">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/leftarrow"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/back"
+        android:fontFamily="@font/broshk"
+        android:text="@string/SETTINGS"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/more" />
+
+    <TextView
+        android:id="@+id/changePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/more"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/CHANGEPASSWORD"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/oldPass"
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/changePass"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/OLDPASSWORD"
+        android:textAlignment="center"
+        android:textColorHint="@color/dark_blue"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/newPass"
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/oldPass"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/newPASSWORD"
+        android:textAlignment="center"
+        android:textColorHint="@color/dark_blue"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/rePass"
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/newPass"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/re_pass"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/dark_blue" />
+
+    <TextView
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rePass"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/LANGUAGE"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lang"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/english"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/EN"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textAlignment="center"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="@color/dark_blue"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/arabic"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:layout_marginStart="15dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/AR"
+            android:textAlignment="center"
+            android:textColor="@color/dark_blue"
+
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/RATE"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/star1" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/star1" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/star1" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/star" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/FEEDBACK"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/feedbackBox"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/feedback"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/feedbackBox"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#54B8F9"
+        android:fontFamily="@font/broshk"
+        android:text="@string/SEND" />
+
+</RelativeLayout>

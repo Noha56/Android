@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:fontFamily="@font/broshk"/>
+
+    <item
+        android:id="@+id/attend"
+        android:title="@string/attend"
+        android:fontFamily="@font/broshk"/>
+
+    <item
+        android:id="@+id/event"
+        android:title="@string/latest_events"
+        android:fontFamily="@font/broshk"/>
+    <item
+        android:id="@+id/jobs"
+        android:title="@string/job"
+        android:fontFamily="@font/broshk"/>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/SETTINGS"
+        android:fontFamily="@font/broshk"/>
+    <item
+        android:id="@+id/payment"
+        android:title="@string/PAYMENT"
+        android:fontFamily="@font/broshk"/>
+    <item
+        android:id="@+id/policy"
+        android:title="@string/PRIVACYPOLICY"
+        android:fontFamily="@font/broshk"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/log_out"
+        android:icon="@drawable/logout"
+        android:fontFamily="@font/broshk"/>
+</menu>

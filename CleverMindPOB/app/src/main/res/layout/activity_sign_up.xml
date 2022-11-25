@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignUp">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/leftarrow" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/broshk"
+        android:text="@string/SIGNUP"
+        android:textSize="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"/>
+
+    <!--
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/user"
+            app:civ_border_color="#CCFFFFFF"
+            app:civ_border_width="2dp" />
+            -->
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/user1" />
+
+    <TextView
+        android:id="@+id/photo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="250dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/PERSONALINFO"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/photo_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/name"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/FULLNAME"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/full_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/username"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/USERNAME"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/email"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/EMAIL"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/phone"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/PHONE"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/lock"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/PASSWORD"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/date"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/DOB"
+        android:inputType="date"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/broshk"
+        android:text="@string/CLEVERWAY"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/ICT"
+        android:textColor="@color/white"
+        android:fontFamily="@font/broshk"
+        />
+
+
+
+</RelativeLayout>

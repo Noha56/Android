@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:background="@drawable/trans_b_4"
+    tools:context=".basket">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/back_l_o" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="BASKET"
+            android:textColor="@color/dark_b"
+            android:textSize="17dp" />
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menu" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            tools:listitem="@layout/fruit_item"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="399dp"
+            android:layout_height="545dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="199dp"
+                android:layout_marginTop="150dp"
+
+                android:background="@drawable/custome_input"
+                android:fontFamily="@font/some_timelater_w1j1n"
+                android:text="TOTAL=30 JD"
+                android:textAlignment="center"
+                android:textColor="@color/dark_b"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/add"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="199dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custome_input"
+                android:fontFamily="@font/some_timelater_w1j1n"
+                android:gravity="top|center"
+                android:inputType="textPostalAddress"
+                android:text="ADDRESS"
+
+                android:textColor="@color/dark_b"
+
+                />
+
+            <RadioGroup
+                android:id="@+id/pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="CASH"
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/quicksand_bold"
+                    android:text="VISA"
+                    android:textAlignment="center" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/left"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="205dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/backror" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/order_now"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="510dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="ORDER NOW!"
+            android:textColor="@color/dark_b"
+            android:textSize="18dp"
+
+            />
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="end|center"
+        android:background="@drawable/box_or"
+        app:itemTextColor="@color/dark_b"
+        app:itemIconPadding="10dp"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

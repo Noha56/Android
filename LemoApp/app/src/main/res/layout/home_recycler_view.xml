@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:src="@drawable/box_y" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="58dp"
+        android:fontFamily="@font/some_timelater_w1j1n"
+        android:text="SUMMER FRUITS"
+        android:textAlignment="center"
+        android:textColor="@color/dark_b"
+        android:textSize="35dp" />
+
+</RelativeLayout>

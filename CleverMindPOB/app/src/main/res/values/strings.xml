@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">CleverMindPOB</string>
+    <string name="LATESTNEWS">LATEST NEWS</string>
+    <string name="TRAININGCENTER">TRAINING CENTER</string>
+    <string name="USERNAME">USERNAME</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="FORGETPASSWORD">FORGETPASSWORD?</string>
+    <string name="account">DONT HAVE ACCOUNT?</string>
+    <string name="SIGNUP">SIGN-UP</string>
+    <string name="CLEVERWAY">CLEVER WAY</string>
+    <string name="ICT">ICT\. 2022</string>
+    <string name="PAYMENT">PAYMENT</string>
+    <string name="cardNo">card number</string>
+    <string name="expiration">expiration</string>
+    <string name="cvc">cvc</string>
+    <string name="SAVE">SAVE</string>
+
+    <string name="PRIVACYPOLICY">PRIVACY POLICY</string>
+    <string name="Privacy">Privacy Policy Last updated: 1/1/2019 Clever Mind POB ICT
+Our www.clevermindpob.org This page informs you of our policies regarding the collection, use, and
+disclosure of Personal Information we receive from users of the Site.
+We use your Personal Information only for providing and improving the Site. By using the Site, you
+agree to the collection and use of information in accordance with this policy. Information Collection
+And Use While using our Site, we may ask you to provide us with certain personally identifiable
+information that can be used to contact or identify you. Personally, identifiable information may
+include but is not limited to your name (\'Personal Information\').</string>
+    <string name="SETTINGS">SETTINGS</string>
+    <string name="CHANGEPASSWORD">CHANGE PASSWORD</string>
+    <string name="OLDPASSWORD">OLD PASSWORD</string>
+    <string name="newPASSWORD">new PASSWORD</string>
+    <string name="LANGUAGE">LANGUAGE</string>
+    <string name="EN">EN</string>
+    <string name="AR">AR</string>
+    <string name="RATE">RATE US</string>
+    <string name="FEEDBACK">FEEDBACK</string>
+    <string name="SEND">SEND</string>
+
+    <string name="PERSONALINFO">PERSONAL INFORMATION</string>
+    <string name="FULLNAME">FULL NAME</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="PHONE">PHONE NUMBER</string>
+    <string name="DOB">DATE OF BIRTH</string>
+    <string name="ANDROID">ANDROID FULL TRACK DEVELOPMENT</string>
+    <string name="SUNTHU">SUN-THU</string>
+    <string name="time101">10:00AM-1:00PM</string>
+    <string name="ATTENDNOW">ATTEND NOW!</string>
+
+    <string name="google">GOOGLE LATEST UPDATES OF DEVELOPMENTS</string>
+    <string name="ios">IOS FULL TRACK DEVELOPMENT</string>
+    <string name="qa">QA PM FOR MOBILE APPS AND WEBSITES</string>
+    <string name="SATTUS">SAT-TUS</string>
+    <string name="MONTHU">MON-THU</string>
+    <string name="time112">11:00AM-2:00PM</string>
+    <string name="time91">9:30AM-1:00PM</string>
+
+    <string name="education">EDUCATIONS STUDENTS IN ALL OVER THE WORLD ! </string>
+    <string name="happy">HAPPY PROGRAMMING DAY EVENT!</string>
+    <string name="qa_session">QA SESSION TALKING ABOUT TESTING</string>
+
+    <string name="power">POWER YOUTH EVENT IN IRBID NOW!</string>
+    <string name="sunday">SUNDAY</string>
+    <string name="date_23_1">23-1-2022</string>
+    <string name="time_11_2">11:00AM-2:00PM</string>
+    <string name="join">JOIN NOW!</string>
+
+    <string name="soon">SOON !</string>
+
+    <string name="google_news">Google Last Updates of developments What Is Mobilegeddon  The Google Mobile-Friendly
+Update On April 21, 2015, Google released a significant new mobile-friendly ranking algorithm that’s
+designed to give a boost to mobile-friendly pages in Google’s mobile search results.</string>
+
+    <string name="android_news">Android Developers website Learning AOSP has been around for more than 10 years and
+visibility into the project has often been restricted to the Android Team and Partners. A lot of that has
+been rooted in business needs: we want to have fun things to show off at launches and the code wasn\'t
+factored in a way that let us do more in the open.</string>
+    <string name="ios_news">IOS Last Updates For our customers\' protection, Apple doesn\'t disclose, discuss, or confirm
+security issues until an investigation has occurred and patches or releases are available. This document
+lists recent releases. For more information about security, see the Apple Product Security page. You can
+encrypt communications with Apple using the Apple Product Security PGP Key.</string>
+
+    <string name="attend_title">ATTENDED COURSES AND TRAINING SESSION</string>
+
+    <string name="android_dev">ANDROID DEVELOPER</string>
+    <string name="years_exp_2">2 YEARS EXPERIENCE</string>
+    <string name="android_trainee">ANDROID DEVELOPER TRAINEE</string>
+    <string name="knowledge">KNOWLEDGE OF JAVA LANGUAGE AND ANDROID DEVELOPMENT BASICS</string>
+    <string name="ios_dev">IOS DEVELOPER</string>
+    <string name="years_exp_4">4 YEARS EXPERIENCE</string>
+    <string name="social_media">SOCIAL MEDIA MARKETING</string>
+
+    <string name="cv">CV</string>
+    <string name="job">JOB</string>
+    <string name="attend">ATTEND</string>
+    <string name="edit">EDIT</string>
+
+    <string name="quote_title">INSPIRATION QUOTE FOR TODAY</string>
+    <string name="quote">WORK HARDER,PROUD LATER</string>
+    <string name="profile">PROFILE</string>
+    <string name="training_center">TRAINING CENTER</string>
+
+    <string name="course_info">COURSE INFORMATION</string>
+
+    <string name="android_course_info">Advanced Android Development
+In the Advanced Android Development training, you take your Android coding skills to the next level.
+The course teaches you ways to expand the user experience, improve your app\'s performance, and add
+advanced features like custom views, animations, and location-awareness. Each lesson includes a
+tutorial with solution code in GitHub, concept documentation, and a slide deck.</string>
+    <string name="ios_course_info">Advanced IOS Development
+In the Advanced IOS Development training, you take your IOS coding skills to the next level. The
+course teaches you ways to expand the user experience, improve your app\'s performance, and add
+advanced features like custom views, animations, and location-awareness. Each lesson includes a
+tutorial with solution code in GitHub, concept documentation, and a slide deck.</string>
+    <string name="qa_course_info">QA and PM For Development
+In the Advanced QA and PM training, you take your QA and PM skills to the next level. The course
+teaches you ways to expand the user experience, improve your test app\'s performance, and add
+advanced features and concept documentation.</string>
+
+    <string name="price_android">PRICE: 150JD</string>
+    <string name="public_">PUBLIC</string>
+    <string name="private_">PRIVATE</string>
+
+    <string name="attended">ATTENDED</string>
+
+    <string name="re_pass">RE-PASSWORD</string>
+    <string name="latest_events">LATEST EVENTS</string>
+    <string name="log_out">LOGOUT</string>
+
+    <string name="android_web">	ANDROID DEVELOPERS WEBSITE LEARNING</string>
+    <string name="google_up">GOOGLE LATEST UPDATES OF DEVELOPMENTS</string>
+    <string name="ios_up">	IOS LAST UPDATES</string>
+
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Payment">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/leftarrow" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/back"
+        android:fontFamily="@font/broshk"
+        android:text="@string/PAYMENT"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="270dp"
+        android:src="@drawable/creditcard" />
+
+
+    <ImageView
+        android:id="@+id/atmCard"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/atmcard" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atmCard"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/broshk"
+            android:text="@string/cardNo"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="218dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/custom_input" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:id="@+id/linear2"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/broshk"
+            android:text="@string/expiration"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/custom_input" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/broshk"
+            android:text="@string/cvc"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/custom_input" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/broshk"
+        android:text="SAVE"
+        android:textColor="@color/dark_blue"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

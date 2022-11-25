@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/leftarrow" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/profile"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <!--
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/user"
+            app:civ_border_color="#CCFFFFFF"
+            app:civ_border_width="2dp" />
+            -->
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/user2" />
+
+    <TextView
+        android:id="@+id/photo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="250dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/PERSONALINFO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/photo_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/name"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/FULLNAME"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/full_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/username"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/USERNAME"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/email"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/EMAIL"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="textEmailSubject"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/phone"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/PHONE"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/date"
+        android:fontFamily="@font/broshk"
+        android:hint="@string/DOB"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray" />
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edit" />
+
+    <TextView
+        android:id="@+id/edit_text"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/edit"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/quote_title"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/broshk"
+        android:gravity="center"
+        android:text="@string/quote_title"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <TextView
+
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/quote_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_input"
+        android:fontFamily="@font/broshk"
+        android:gravity="center"
+        android:text="@string/quote"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="205dp"
+        android:layout_height="190dp"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/some_timelater_w1j1n"
+            android:text="SUMMER FRUITS"
+            android:textAlignment="center"
+            android:textColor="@color/dark_b"
+            android:textSize="26dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/fruit"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/apple" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

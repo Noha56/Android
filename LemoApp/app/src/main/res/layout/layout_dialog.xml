@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:background="@color/blue"
+    android:layout_height="300dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_book"
+        android:text="FORGET PASSWORD"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/yellow"
+        android:fontFamily="@font/quicksand_book"
+        android:hint="EMAIL ADDRESS"
+        android:textAlignment="center"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="@font/quicksand_book"
+        android:text="SEND"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

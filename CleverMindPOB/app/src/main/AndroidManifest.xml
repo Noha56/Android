@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clevermindpob">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CleverMindPOB">
+        <activity
+            android:name=".TrainingCenter"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Job"
+            android:exported="false" />
+        <activity
+            android:name=".Attend"
+            android:exported="false" />
+        <activity
+            android:name=".News"
+            android:exported="false" />
+        <activity
+            android:name=".Events"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".Policy"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

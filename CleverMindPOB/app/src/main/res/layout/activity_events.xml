@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Events">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="577dp"
+        android:layout_weight=".5">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/back"
+            android:fontFamily="@font/broshk"
+            android:text="@string/LATESTNEWS"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="20dp"
+            android:clipToPadding="false"
+            android:foregroundGravity="center"
+            android:overScrollMode="never" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/broshk"
+            android:textAlignment="center"
+            android:text="@string/soon" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/event_recycle_item" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

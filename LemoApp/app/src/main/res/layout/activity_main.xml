@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/some_timelater_w1j1n"
+        android:text="THE\nLEMO MALL"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:text="Healthy Mall in Your Hand"
+
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="-156dp"
+        android:gravity="center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="2022.Clever Mind POB"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CleverMindPOB</string>
+    <string name="LATESTNEWS">أحدث الأخبار</string>
+    <string name="TRAININGCENTER">مركز تدريب</string>
+    <string name="USERNAME">أسم المستخدم</string>
+    <string name="PASSWORD">كلمةالمرور</string>
+    <string name="FORGETPASSWORD">هل نسيت كلمة المرور؟</string>
+    <string name="account">لا تملك حساب؟</string>
+    <string name="SIGNUP">اشتراك</string>
+    <string name="CLEVERWAY">CLEVER WAY</string>
+    <string name="ICT">ICT\. 2022</string>
+    <string name="PAYMENT">الدفع</string>
+    <string name="cardNo">رقم البطاقه</string>
+    <string name="expiration">تاريخ الانتهاء</string>
+    <string name="cvc">التحقق</string>
+    <string name="SAVE">حفظ</string>
+
+    <string name="PRIVACYPOLICY">سياسة الخصوصيه والامان</string>
+    <string name="Privacy">سياسة الخصوصية آخر تحديث: 1/1/2022 Clever Mind POB ICT
+www.clevermindpob.org الخاص بنا تُعلمك هذه الصفحة بسياساتنا المتعلقة بالتجميع والاستخدام و
+الكشف عن المعلومات الشخصية التي نتلقاها من مستخدمي الموقع.
+نحن نستخدم معلوماتك الشخصية فقط لتوفير وتحسين الموقع. باستخدام الموقع ، أنت
+توافق على جمع واستخدام المعلومات وفقًا لهذه السياسة. جمع المعلومات
+والاستخدام أثناء استخدام موقعنا ، قد نطلب منك تزويدنا ببعض المعلومات الشخصية
+المعلومات التي يمكن استخدامها للاتصال أو التعرف عليك. شخصيا ، معلومات التعريف قد
+تشمل على سبيل المثال لا الحصر اسمك (\ "معلومات شخصية \").</string>
+    <string name="SETTINGS">الأعدادات</string>
+    <string name="CHANGEPASSWORD">تغيير كلمة المرور</string>
+    <string name="OLDPASSWORD">كلمة المرور القديمة</string>
+    <string name="newPASSWORD">كلمة المرور الجديده</string>
+    <string name="LANGUAGE">اللغة</string>
+    <string name="EN"> الانجليزية</string>
+    <string name="AR">العربية</string>
+    <string name="RATE">قيمنا</string>
+    <string name="FEEDBACK">ملاحظات</string>
+    <string name="SEND">ارسال</string>
+
+    <string name="PERSONALINFO">المعلومات الشخصية</string>
+    <string name="FULLNAME">الاسم الكامل</string>
+    <string name="EMAIL">البريد الألكتروني</string>
+    <string name="PHONE">رقم الهاتف</string>
+    <string name="DOB">تاريخ الميلاد</string>
+    <string name="ANDROID">تطوير مسار الأندرويد الكامل</string>
+    <string name="SUNTHU">الاحد-الخميس</string>
+    <string name="time101">10:00AM-1:00PM</string>
+    <string name="ATTENDNOW">!احضر الان</string>
+
+    <string name="google">آخر تحديثات قوقل للتطورات</string>
+    <string name="ios">تطوير المسار الكامل لـ IOS</string>
+    <string name="qa">ادارة المشاريع وضمان حودة البرمحيات للمواقع والتطبيقات</string>
+    <string name="SATTUS">السبت-الثلاثاء</string>
+    <string name="MONTHU">الأثنين-الثلاثاء</string>
+    <string name="time112">11:00AM-2:00PM</string>
+    <string name="time91">9:30AM-1:00PM</string>
+
+    <string name="education">طلاب التعليم في جميع أنحاء العالم!</string>
+    <string name="happy">!حدث يوم برمجة سعيد</string>
+    <string name="qa_session">جلسة تحدث عن فحص البرمجات وضمان جودتها</string>
+
+    <string name="power">حدث قوة للشباب في أربد الآن!</string>
+    <string name="sunday">الأحد</string>
+    <string name="date_23_1">23-1-2022</string>
+    <string name="time_11_2">11:00AM-2:00PM</string>
+    <string name="join">!انضم الان</string>
+
+    <string name="soon">!قريبا</string>
+
+    <string name="google_news">آخر تحديثات جوجل للتطورات ما هو Mobilegeddon Google Mobile-Friendly
+تحديث في 21 أبريل 2015 ، أصدرت Google خوارزمية تصنيف جديدة مهمة ومتوافقة مع الجوّال
+مصمم لإعطاء دفعة للصفحات الملائمة للجوال في نتائج بحث Google للجوال.</string>
+
+    <string name="android_news">موقع Android Developers Learning AOSP موجود منذ أكثر من 10 سنوات و
+غالبًا ما تكون الرؤية في المشروع مقتصرة على فريق Android والشركاء. الكثير من ذلك
+متجذرة في احتياجات العمل: نريد الحصول على أشياء ممتعة للتباهي بها عند الإطلاق ولم يكن الرمز
+بطريقة تتيح لنا القيام بالمزيد في العلن.</string>
+    <string name="ios_news">تحديثات IOS الأخيرة لحماية عملائنا ، لا تفصح Apple أو تناقش أو تؤكد
+مشكلات الأمان إلى أن يتم إجراء تحقيق وتتوفر تصحيحات أو إصدارات. هذا المستند
+يسرد الإصدارات الأخيرة. لمزيد من المعلومات حول الأمان ، راجع صفحة أمان منتج Apple. يمكنك
+تشفير الاتصالات مع Apple باستخدام مفتاح PGP لأمان منتج Apple.</string>
+
+    <string name="attend_title">حضور الدورات والدورات التدريبية</string>
+
+    <string name="android_dev">مطور اندرويد</string>
+    <string name="years_exp_2">  سنتان من الخبره</string>
+    <string name="android_trainee">متدرب مطور الاندرويد</string>
+    <string name="knowledge">معرفة أساسيات لغة جافا وأساسيات تطوير الأندرويد</string>
+    <string name="ios_dev">IOS مطور</string>
+    <string name="years_exp_4">اربع سنوات من الخبرة</string>
+    <string name="social_media">تسويق وسائل الاعلام الاجتماعية</string>
+
+    <string name="cv">السيرة الذاتيه</string>
+    <string name="job">الوظائف</string>
+    <string name="attend">حضور</string>
+    <string name="edit">تعديل</string>
+
+    <string name="quote_title">اقتباس اليوم</string>
+    <string name="quote">اعمل بجد وكن فخوراً لاحقًا</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="training_center">مركز تدريب</string>
+
+    <string name="course_info"> معلومات الدوره</string>
+
+    <string name="android_course_info">تطوير Android المتقدم
+في تدريب Advanced Android Development ، سترتقي بمهاراتك في تشفير Android إلى المستوى التالي.
+تعلمك الدورة طرقًا لتوسيع تجربة المستخدم وتحسين أداء التطبيق والإضافة
+الميزات المتقدمة مثل العروض المخصصة والرسوم المتحركة والوعي بالموقع. يتضمن كل درس أ
+برنامج تعليمي مع رمز الحل في GitHub ، ووثائق المفهوم ، ومجموعة الشرائح.</string>
+    <string name="ios_course_info">تطوير IOS المتقدم
+في التدريب المتقدم على تطوير IOS ، تأخذ مهاراتك في ترميز IOS إلى المستوى التالي. ال
+تعلمك الدورة التدريبية طرقًا لتوسيع تجربة المستخدم وتحسين أداء التطبيق وإضافة ملفات
+الميزات المتقدمة مثل العروض المخصصة والرسوم المتحركة والوعي بالموقع. يتضمن كل درس أ
+برنامج تعليمي مع رمز الحل في GitHub ، ووثائق المفهوم ، ومجموعة الشرائح.</string>
+    <string name="qa_course_info">QA and PM للتطوير
+في التدريب المتقدم في ضمان الجودة وإدارة الجودة ، تأخذ مهارات ضمان الجودة وإدارة الجودة لديك إلى المستوى التالي. الفصل
+يعلمك طرقًا لتوسيع تجربة المستخدم ، وتحسين أداء التطبيق التجريبي ، والإضافة
+الميزات المتقدمة ووثائق المفهوم.</string>
+
+    <string name="price_android">السعر: JD150</string>
+    <string name="public_">جماعي</string>
+    <string name="private_">خاص</string>
+
+    <string name="attended">حضر</string>
+    <string name="re_pass">اعد ادخال كلمة المرور</string>
+    <string name="latest_events">اخر الأحداث</string>
+    <string name="log_out">تسجيل الخروج</string>
+
+    <string name="android_web">	تعلم مواقع الويب لمطوري برامج الاندرويد</string>
+    <string name="google_up">آخر تحديثات قوقل للتطورات</string>
+    <string name="ios_up">	تحديثات IOS الأخيرة</string>
+</resources>

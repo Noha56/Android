@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_input"
+    android:layout_margin="15dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/broshk"
+        android:text="@string/ANDROID"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/broshk"
+        android:text="@string/SUNTHU"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/day"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/broshk"
+        android:text="@string/time101"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/attend"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/broshk"
+        android:text="@string/ATTENDNOW"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/android" />
+
+    <ImageView
+        android:id="@+id/attendIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="52dp"
+        android:layout_toEndOf="@+id/attend"
+        android:src="@drawable/right" />
+
+</RelativeLayout>
