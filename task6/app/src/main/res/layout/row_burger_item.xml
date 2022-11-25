@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="270dp"
+    >
+
+
+        <ImageView
+            android:id="@+id/item_back"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:paddingLeft="20dp"
+            android:src="@drawable/item_orange" />
+        <ImageView
+            android:layout_marginTop="95dp"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/side_count" />
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="40dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="25dp"
+            android:src="@drawable/plus" />
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="40dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="25dp"
+            android:src="@drawable/minus" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp">
+
+
+            <RadioButton
+                android:id="@+id/burger_btn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="45dp"
+                android:buttonTint="#dF5516"
+                android:checked="true"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:text="C H E E S E \nB U R G E R"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:text="5 JD"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/meal_btn"
+                android:layout_width="120dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:buttonTint="#dF5516"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:text="M E A L"
+                android:textColor="#222222"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:fontFamily="@font/raleway_semi_bold"
+                android:text="6 JD"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/num_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#222222"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+</RelativeLayout>

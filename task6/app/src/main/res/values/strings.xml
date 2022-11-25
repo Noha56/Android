@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">task6</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string-array name="snacks_items_names">
+        <item>"Shawarma\n5JD"</item>
+        <item>"HotDog\n6JD"</item>
+        <item>"Chrispy\n3JD"</item>
+        <item>"Faheta\n4JD"</item>
+    </string-array>
+    <string-array name="snacks_items_meals">
+        <item>"Meal\n6JD"</item>
+        <item>"Meal\n7JD"</item>
+        <item>"Meal\n4JD"</item>
+        <item>"Meal\n6JD"</item>
+    </string-array>
+</resources>
