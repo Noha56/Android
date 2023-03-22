@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/map"
+       android:title="@string/map"
+       android:icon="@drawable/baseline_map_24"
+       />
+   <item
+       android:id="@+id/multiVideos"
+       android:title="@string/multi_videos"
+       android:icon="@drawable/baseline_video_library_24"
+       />
+   <item
+       android:id="@+id/swipePage"
+       android:title="@string/swipeable_videos"
+       android:icon="@drawable/baseline_swipe_vertical_24"
+       />
+</menu>

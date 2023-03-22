@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Task11</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="register_now">Register now!</string>
+    <string name="logout">Logout</string>
+
+    <string name="close_nav">Open Navigation Drawer</string>
+    <string name="open_nav">Close Navigation Drawer</string>
+    <string name="home">Home</string>
+    <string name="calculator">Calculator</string>
+    <string name="show_video">Show video</string>
+    <string name="reset">Reset</string>
+    <string name="player_1_0">Player 1:0</string>
+    <string name="player_2_0">Player 2:0</string>
+    <string name="tic_tac_toe_game">Tic Tac Toe Game</string>
+</resources>

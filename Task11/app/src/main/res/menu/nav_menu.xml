@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:shownIn="navigation_view"
+    >
+ <group android:checkableBehavior="single">
+     <item
+         android:id="@+id/nav_home"
+         android:title="@string/home"
+         android:icon="@drawable/baseline_home_24"
+         />
+     <item
+         android:id="@+id/nav_calculator"
+         android:title="@string/calculator"
+         android:icon="@drawable/baseline_calculate_24"
+         />
+     <item
+         android:id="@+id/nav_video"
+         android:title="@string/show_video"
+         android:icon="@drawable/baseline_slow_motion_video_24"
+         />
+
+ </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:title="@string/logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                />
+        </menu>
+    </item>
+</menu>
